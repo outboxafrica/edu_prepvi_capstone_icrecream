@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles/contactpage.css">
+    <script src="https://kit.fontawesome.com/b673a616b9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--end of navbar-->
+
+
+    <!--feedback-->
+    <div class="container">
+        <h1 class="feedback-section">We value your feedback</h1>
+        <form class="feedback-form">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="firstname" required class="feedback-form-text">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="lastname" required class="feedback-form-text">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your email" required class="feedback-form-text">
+            <label for="area">Area</label>
+            <select id="area" name="area" class="feedback-form-text">
+                <option value="none">Select Area</option>
+                <option value="banda">Banda</option>
+                <option value="bugolobi">Bugolobi</option>
+                <option value="bukoto">Bukoto</option>
+                <option value="butabika">Butabika</option>
+                <option value="buziga">Buziga</option>
+                <option value="bwaise">Bwaise</option>
+                <option value="bweyogerere">Bweyogerere</option>
+                <option value="center business district">Center Business District</option>
+                <option value="ggaba">Ggaba</option>
+                <option value="kabalagala">Kabalagala</option>
+                <option value="kabowa">Kabowa</option>
+                <option value="kalerwe">Kalerwe</option>
+                <option value="kamwokya">Kamwokya</option>
+                <option value="kansanga">Kansanga</option>
+                <option value="kikoni">Kikoni</option>
+                <option value="kinawataka">Kinawataka</option>
+                <option value="kireka">Kireka</option>
+                <option value="kirinya">Kirinya</option>
+                <option value="kisasi">Kisasi</option>
+                <option value="kisementi">Kisementi</option>
+                <option value="kintitale">Kintitale</option>
+                <option value="kiwatule">Kiwatule</option>
+                <option value="kololo">Kololo</option>
+                <option value="kyambogo">Kyambogo</option>
+                <option value="kyanja">Kyanja</option>
+                <option value="lubiri">Lubiri</option>
+                <option value="lubowa">Lubowa</option>
+                <option value="lugogo">Lugogo</option>
+                <option value="makerere">Makerere</option>
+                <option value="makindye">Makindye</option>
+                <option value="mbuya">Mbuya</option>
+                <option value="mengo">Mengo</option>
+                <option value="mulago">Mulago</option>
+                <option value="mutungo">Mutungo</option>
+                <option value="munyonyo">Munyonyo</option>
+                <option value="muyenga">Muyenga</option>
+                <option value="naalya">Naalya</option>
+                <option value="naguru">Naguru</option>
+                <option value="najjanakumbi">Najjanankumbi</option>
+                <option value="najjera">Najjera</option>
+                <option value="nakasero">Nakasero</option>
+                <option value="nakawa">Nakawa</option>
+                <option value="nakivubo">Nakivubo</option>
+                <option value="nakulabye">Nakulabye</option>
+                <option value="namanve">Namanve</option>
+                <option value="namasuba">Namasuba</option>
+                <option value="namirembe">Namirembe</option>
+                <option value="namugongo">Namugongo</option>
+                <option value="ntinda">Ntinda</option>
+            </select>
+            <label for="comment">Comments</label>
+            <textarea class="feedback-form-text" id="subject" name="subject" placeholder="Your message" rows="4"
+                cols="50"></textarea><br>
+            <button class="feedback-form-btn" onclick="sendMessage()" id="send">Send</button>
+
+        </form>
+        
+    </div>
+    <!--end of feedback-->
+    <!--contact-->
+    <div class="contact-info">
+        <h2 class="contact-heading">Contact Us</h2>
+        <div class="card">
+            <i class="card-icon far fa-envelope"></i>
+            <p>edurestaurant@gmail.com</p>
+        </div>
+        <div class="card">
+            <i class="card-icon fas fa-phone"></i>
+            <p>+256 783 481206
+                <br>+256 704 610815
+            </p>
+        </div>
+        <div class="card">
+            <i class="card-icon fas fa-map-marker-alt"></i>
+            <p>Soliz House, 4th Floor
+                <br>Lumumba Avenue,Kampala-Uganda
+            </p>
+        </div>
+    </div>
+<!--end of contact-->
+
+ <!--footer section-->
+ <footer>
+    <div class="footer">
+        <div class="col-lg-4 my-3 my-lg-0">
+            
+                <i class="fab fa-facebook"></i>
+            
+            
+                <i class="fab fa-twitter"></i>
+          
+        </div>
+        <p1>©2020|EDU Restaurant</p1>
+
+    </div>
+</footer>
+<!--end of footer section-->
+
+
+    <script src="../scripts/contactpage.js"></script>
+</body>
+
+</html>
