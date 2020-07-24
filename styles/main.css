@@ -1,0 +1,74 @@
+/* styling the form */
+.feedback-section{
+    text-align: center;
+  }
+  
+  .feedback-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+.feedback-form-text {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 10px 20px;
+    outline: none;
+    color: #000;
+    transition: 0.5s;
+  }
+  
+  .feedback-form-text:hover {
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  
+  textarea.feedback-form-text{
+    resize: none;
+    height: 120px;
+  }
+  
+  /* Style the send button with a specific background color etc */
+  #send {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* When moving the mouse over the send button, add a lighter green color */
+  #send:hover {
+    background-color: limegreen;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /*media queries */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
