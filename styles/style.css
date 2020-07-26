@@ -1,29 +1,47 @@
 body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   background-color: #f2f2f2;
-  margin-left: 40px;
+  margin-left: 50px;
   font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(rgb(17, 10, 4), rgba(17, 10, 1, 0.5)),
+  url(../img/cristiano-pinto-2lWGQ02DGL8-unsplash.jpg) no-repeat center; 
+  background-size: cover;
 }
 
+.tasty{
+  color: #fff;
+  text-align: center;
+}
+.meals{
+  color: #fff;
+  text-align: center;
+}
+
+  
 
 .welcome {
-  text-transform: uppercase;
-  color: blueviolet;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
 }
 
 .menu-description {
   text-align: center;
   font-size: 35px;
-  color: skyblue;
+  color:#fff;
 }
 
 
 /* styling the cards*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
   display: inline-block;
   align-items: stretch;
+  background-color: #fff;
   
 }
 
