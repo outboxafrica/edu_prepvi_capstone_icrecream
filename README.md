@@ -1,1 +1,0 @@
-# edu_prepvi_capstone_icrecream
