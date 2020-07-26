@@ -11,7 +11,7 @@ body{
     background-size: cover;
     display: block;
 }
-
+/* navbar */
 .navbar{
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ body{
     text-decoration: none;
     padding: 1rem;
     display: block;
-    font-weight: 200;
+    font-weight: bold;
     color: #fff; 
   }
   .navbar-links ul li a:hover {
@@ -42,6 +42,8 @@ body{
     opacity: 0.6;
   }
   /*end of navbar*/
+  
+  /* feedback section */
 .feedback-section{
     text-align: center;
     color: #fff;
@@ -176,7 +178,7 @@ input{
 /*footer*/
 .footer {
     position: relative;
-    bottom: 0;
+    bottom: 60px;
     top: 0;
     border: none;
     color: #fff;
