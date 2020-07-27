@@ -44,6 +44,41 @@ body {
   }
   /* end of navbar */
 
+
+  * General input Styling*/
+input{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]{
+    background-color: #ffffff;
+    width: 340px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius:25px 0 0 25px;
+    opacity: 0.5;
+}
+input[type="submit"]{
+   position: relative;
+   border-radius: 0 25px 25px 0;
+   width: 100px;
+   height: 40px;
+   color:#fff;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: green;
+}
+input[type="submit"]:hover{
+   
+    background: #fff;
+    color: green;
+}
 /* grid layout */
 
 [class*="col-"] {
