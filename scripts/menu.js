@@ -30,7 +30,7 @@ function filtertext() {
     // get all div elements in div with class foodlist
     const div = document.querySelectorAll(".foodslist div");
   for(var i = 0; i<div.length;i++){
-          var p = div[i].getElementsByClassName(".shop-item-title")[0];
+          var p = div[i].getElementsByTagName("h3")[0];
           console.log(p);
           var x = p.textContent;
           console.log(x);

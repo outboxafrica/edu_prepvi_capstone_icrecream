@@ -45,8 +45,8 @@ body {
   /* end of navbar */
 
 
-  * General input Styling*/
-input{
+  /* General input Styling*/
+  input{
     position: relative;
     display:inline-block;
     font-size: 20px;
@@ -79,7 +79,7 @@ input[type="submit"]:hover{
     background: #fff;
     color: green;
 }
-/* grid layout */
+  /* grid layout */
 
 [class*="col-"] {
   float: left;
@@ -385,6 +385,15 @@ input[type="submit"]:hover{
     .cart-total{
       margin-bottom: 50px;
     } 
+    input[type="submit"]{
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+    input[type="text"]{
+      border-radius: 20px;
+      margin-right: 10px;
+
+    }
 }
 
 @media (max-width: 768px) {
