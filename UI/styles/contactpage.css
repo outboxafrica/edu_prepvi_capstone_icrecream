@@ -1,0 +1,219 @@
+*{
+margin: 0;
+padding:0;
+font-family: 'Montserrat', sans-serif;
+font-weight:40px;
+box-sizing: border-box;
+}
+body{
+    background: radial-gradient(rgb(20, 12, 4), rgba(15, 9, 1, 0.5)),
+    url(../images/rachel-park-hrlvr2ZlUNk-unsplash.jpg) no-repeat center; 
+    background-size: cover;
+    display: block;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    background-color: #008f00;
+  }
+  .navbar-links ul { 
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+  }
+  .navbar-links li{
+    list-style: none;
+  }
+  .navbar-links ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-weight: bold;
+    color: #fff; 
+  }
+  .navbar-links ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+    opacity: 0.6;
+  }
+  /*end of navbar*/
+  
+  /* feedback section */
+.feedback-section{
+    text-align: center;
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+  
+.feedback-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+.feedback-form-text {
+    width: 100%;
+    display: block;
+    margin: 16px 0;
+    border: 0;
+    padding: 10px 20px;
+    outline: none;
+    color: #000;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+    
+  }
+  
+  .feedback-form-text:hover {
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  
+  textarea.feedback-form-text{
+    resize:none;
+    height: 120px;
+  }
+  
+  /* Style the send button with a specific background color etc */
+  #send {
+    background-color: #008f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+    
+    
+  }
+  
+  /* When moving the mouse over the send button, add a lighter green color */
+  #send:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    padding: 10px;
+    
+  }
+input{
+    background-color: transparent;
+    outline:none;
+
+}
+
+  /* Media query */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+    #send{
+        position: relative;
+        left: 100px;
+    }
+  }
+
+  /* contact us */
+.contact-info{
+    display:flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: #fff;
+    font-weight: 400;
+    
+}
+.card{
+    background: #fff;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008f00;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.card-icon{
+    color: #fff;
+    font-size: 28px;
+    background-color: #008f00;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px!important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+.card:hover .card-icon{
+    background: darkgreen;
+    opacity: 0.6;    
+} 
+.card p{
+    margin-top:20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card:hover p{
+    max-height: 40px;
+    opacity:1;
+    font-weight: 700;
+}
+/*footer*/
+.footer {
+    position: relative;
+    bottom: 60px;
+    top: 0;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    text-emphasis: none; 
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  
+  }
+  /*end of footer*/
+
+
+@media (max-width:800px){
+    .contact-info{
+      flex-direction:column;
+    }
+    .card{
+      width:100%;
+      max-width: 300px;
+      margin:10px 0;
+    }
+    footer{
+      position: relative;
+      top:200px;
+    }
+}
+
+.footer .btn-back{
+    color:#fff;
+
+}
+.btn-social .i{
+    font-size:20px;
+    color:#fff
+
+}
