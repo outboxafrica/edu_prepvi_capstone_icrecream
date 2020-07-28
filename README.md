@@ -1,6 +1,7 @@
  
 #edu_prepvi-capstone-icecream
- EDU RESTAURANT
+
+EDU RESTAURANT
 
 A platform where Outbox Edu students can order for food. 
 
@@ -28,5 +29,5 @@ A platform where Outbox Edu students can order for food.
 
 ## Acknowledgments:
 - All our learning facilitators at Outbox Prep VI class
--Team Icecream
+- Team Icecream
 
